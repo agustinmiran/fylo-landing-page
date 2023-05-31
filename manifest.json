@@ -1,0 +1,10 @@
+{
+    "name": "Fylo",
+    "short_name": "",
+    "description": "",
+    "start_url": "/",
+    "display": "standalone",
+    "theme_color": "#0000ff",
+    "background_color": "#0000ff",
+    "orientation": "portrait"
+}

@@ -4,9 +4,11 @@
 --light-grayish-blue:hsl(240, 75%, 98%);--light-gray:hsl(0, 0%, 75%);
 --family:'Raleway',sans-serif;--family1:'Open Sans',sans-serif;}
 nav{height:100px;display:flex;align-items:flex-end;}
-.n-content {width:88.824%;max-width:1400px;display:flex;margin-left:auto;margin-right:auto;justify-content:space-between;}
+.n-content{width:88.824%;max-width:1400px;display:flex;margin-left:auto;margin-right:auto;justify-content:space-between;}
+.n-content img{width:100px;}
 ul{display:flex;list-style:none;align-items:center;}
-li a{color:var(--very-dark-blue);font-family:var(--family);}
+li{width:55px;text-align:center;}
+li a{color:var(--very-dark-blue);font-family:var(--family);font-size:13px}
 .section{display:flex;flex-wrap:wrap-reverse;height:17cm;align-items:center;max-width:1400px;width:88.824%;margin:0 auto;}
 .a-1{display:flex;flex-direction:column;gap:10px;}
 .a-h1{text-align:center;display:block;}
@@ -19,16 +21,16 @@ form{display:flex;flex-direction:column;gap:5px;align-items:center;}
 .a-2{display: flex;justify-content:center;}
 .a-2 img{width:90%;}
 #img{width:100%;position:relative;top:5px;}
-#bg{background-color:#f8f8fe;}
+#bg{background-color:#f8f8fe;height:65em;}
 .section-2{display:flex;flex-wrap:wrap-reverse;}
 .a-3{max-width:1400px;margin:0 auto;width:88.824%;}
-.card-sms{width: 88.824%;margin:auto;padding:1rem;}
+.card-sms{width: 88.824%;margin:auto;padding:1rem;box-shadow:0px 0px 5px 5px #eee;border-radius:10px;}
 .card-sms p{font-family:var(--family1);}
 .perfil img{width:32px;height:32px;border-radius:50%;}
 .a3-h2{text-align:center;font-size:1.2rem;font-family:var(--family);color:var(--very-dark-blue);font-weight:600;margin-top:6rem;}
 .a3-p{display:flex;flex-direction:column;justify-content:space-evenly;height:200px;}
 .a3-p p{width:96%;font-size:16px;color:var(--light-gray);font-family:var(--family1);}
-.a3-link{display:flex;justify-content:center;}
+.a3-link{display:flex;justify-content:center;padding:2rem 0 3rem 0;}
 .a3-link a{position:relative;width:158.11px;display:flex;justify-content:space-evenly;align-items:center;color:var(--moderate-cyan);font-family:var(--family);}
 .a3-link a::after{position:absolute;content:'';height:1px;width:100%;top:115%;left:0;background-color:var(--moderate-cyan);}
 .a-4{display:flex;justify-content:center;max-width:1400px;margin:0 auto;width:88.824%;}

@@ -1,4 +1,4 @@
-* {margin:0;padding:0;box-sizing:border-box;outline:none;border:1px solid black;}
+* {margin:0;padding:0;box-sizing:border-box;outline:none;text-decoration:none;}
 :root {--very-dark-blue:hsl(243, 87%, 12%);--desaturated-blue:hsl(238, 22%, 44%);
 --bright-blue:hsl(224, 93%, 58%);
 --moderate-cyan:hsl(170, 45%, 43%);
@@ -6,6 +6,12 @@
 --light-gray:hsl(0, 0%, 75%);
 --family:'Raleway',sans-serif;
 --family1:'Open Sans',sans-serif;}
-
-/* ========== In Development ========== */
-/* ========== En Desarrollo ========== */
+nav{height:100px;display:flex;align-items:flex-end;}
+.n-content{width:88.824%;max-width:1400px;display:flex;margin-left:auto;margin-right:auto;justify-content:space-between;}
+.n-content img{width: 166px;}
+ul{display:flex;list-style:none;align-items:center;}
+li{width:100px;text-align:center;}
+li a{color:var(--very-dark-blue);font-family:var(--family);}
+.section{display:flex;}
+.a-1{width:50%;}
+.a-2{width:50%;}
